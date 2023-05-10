@@ -8,7 +8,7 @@ public class App {
         int n = a.nextInt();
         double []nums =new double[n+1];
         for (int i=0;i<n;i++){
-            System.out.print("Enter number "+i+1+" : ");
+            System.out.print("Enter number "+(i+1)+" : ");
             nums[i]=a.nextDouble();
         }
         System.out.print("Enter target : ");
